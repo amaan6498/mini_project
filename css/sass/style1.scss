@@ -1,0 +1,29 @@
+$color:red;
+ul{
+	font-size: 14px;
+	color: $color;
+}
+ol{
+	font-size: 14px;
+	color: $color;
+}
+%p{
+	font-family: "sans-serif";
+	font-size: 15px;
+	font-weight: bold;
+	border: 1px solid black;
+	padding : 20px;
+	margin: 20px;
+}
+.success{
+	@extend %p;
+	background-color: green;
+}
+.danger{
+	@extend %p;
+	background-color: red;
+}
+.warning{
+	@extend %p;
+	background-color: orange;
+}
