@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>
+			SITS(OEMS)
+		</title>
+		<link rel = "icon" type = "image/png" href = "images\mylogo.png">
+		<link rel="stylesheet" type="text/css" href="css\style.css">
+		<link rel="stylesheet" type="text/css" href="css/gallery.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+		<style>
+			body{
+				background-color: #fcfdfc;
+			}
+			.id{
+				background-color: yellow;
+			}
+			@media(max-width: 499px){
+				h2::before{
+					content: "AboutMe"
+				}
+			}
+			h2{
+				font-family: Courier New;
+				font-weight: bold;
+			}
+			button{
+				opacity: 0.6;
+				height: 30px;
+				width: 90px;
+			}
+			hr{
+				border-top: 1px dashed red;
+			}
+			img{
+				border: 5px solid #111111 ;
+			}
+			.box img {
+   				 width: 50%;
+   				 height: 50%;
+				 align-items: flex-start;
+			}
+
+			.box1 img {	
+				object-fit: cover;
+			}
+			.image {
+        		flex-basis: 5%
+     		 }
+			.text {
+				font-size: 15px;
+				padding-left: 2px;
+			}
+			.div-1{
+				background-color: rgb(197, 188, 188);
+			}
+		</style>
+	</head>
+<body>
+	<marquee style="background-color: #333;font-style: italic;color: white;"><h1>SITS Online Event Management System</h1></marquee>
+	<div class="topnav">
+		<a class="active" href="#sec0">Home</a>
+		<a class="nav-item" href="#sec1">Events</a>
+		<a class="nav-item" href="gallery.html">Gallery</a>
+		<a href="#sec2">About Project</a> 
+		<a href="#sec3">Connect</a>   
+		<img src="images\mylogo.png" float:right height="52" width="52">
+	</div>	
+	<br><br>
+	<center id="sec0">
+		<div class="row">
+			<div class="col-md-4">
+			  <div class="thumbnail">
+				<a href="images/1.jpeg">
+				  <img src="images/1.jpeg" alt="Lights" style="width:100%" style="border:5px solid #FFFFFF;">
+				</a>
+			  </div>
+			</div>
+			<div class="col-md-4">
+			  <div class="thumbnail">
+				<a href="images/4.jpeg">
+				  <img src="images/4.jpeg" alt="Nature" style="width:100%">
+				</a>
+			  </div>
+			  <br><br>
+				<div class="thumbnail">
+				  <a href="images/3.jpeg">
+					<img src="images/3.jpeg" alt="Nature" style="width:100%">
+				  </a>
+				</div>
+			  </div>
+			<div class="col-md-4">
+			  <div class="thumbnail">
+				<a href="images/2.jpeg">
+				  <img src="images/2.jpeg" alt="Fjords" style="width:100%">
+				</a>
+			  </div>
+			</div>
+		  </div>	
+<br><br>
+<hr style="border: 10px solid black; border-radius: 5px;">
+<div style="display: flex; justify-content: left" id="sec1">
+	<div class="container"></div>
+		<div class="image"></div>
+			<div class="box">
+				<div class="box" box1><a href="http://localhost/test/insert.php"><img src="images/events/cyber.png" alt="a balloon"></a></div><br>
+				<div class="text">
+					<p><h7>Date:</h7> 20/12/2022</p>
+					<h6>Venue</h6><p>SEMINAR HALL</p>
+				</div><hr>
+				<div class="box" box1><a href="http://localhost/test/insert.php"><img src="images/events/iot.png" alt="a balloon"></a></div><br>
+				<div class="text" style="padding-left: 2px;">
+					<p><h7>Date:</h7> 28/12/2022</p>
+					<h6>Venue</h6><p>LAB 7</p>
+				</div><hr>
+				<div class="box" box1><a href="http://localhost/test/insert.php"><img src="images/events/fest.png" alt="a balloon"></a></div><br>
+				<div class="text">
+					<p><h7>Date:</h7> 26/12/2022</p>
+					<h6>Venue</h6><p>College Auditorium</p>
+				</div><hr>
+				<div class="box" box1><a href="http://localhost/test/insert.php"><img src="images/events/annual.png" alt="a balloon"></a></div><br>
+				<div class="text">
+					<p><h7>Date:</h7> 24/12/2022</p>
+					<h6>Venue</h6><p>College Auditorium</p>
+				</div><hr>
+				<div class="box" box1><a href="http://localhost/test/insert.php">><img src="images/events/sports.png" alt="a balloon"></a></div><br>
+				<div class="text">
+					<p><h7>Date:</h7> 22/12/2022</p>
+					<h6>Venue</h6><p>SITS PlayGround</p>
+				</div><hr>
+				<div class="box" box1><a href="http://localhost/test/insert.php"><img src="images/events/blood.png" alt="a balloon"></a></div><br>
+				<div class="text">
+					<p><h7>Date:</h7> 21/12/2022</p>
+					<h6>Venue</h6><p>SITS Health Center</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<hr style="border: 10px solid black; border-radius: 5px;">
+<div id="sec2">
+    <div></div>
+		<div class="div-1"> 
+			<img src="images/buffer.png" width="20%" alt="">
+			<br><br>
+			<h4>Event Buffer is an Online Event Management system software that serves the funtionality of an event manager.
+				The system allows users to browse eventss and information about the event like venue, time, logistics etc. 
+				The system helps in management of events and the aspects related to them</h4>	
+			<h4>This is proposed to be a web application. The project provides most of the basic funtinalit required for an event type,
+				e.g.[communication, training skills, debates]. The system then alloes the user to select the date and time of the 
+				event,place and the event equipment if specified.All the data is loged into the database.</h4>
+			<h4>The data is then sent to the administrator, and they may interact with the client as per requirement.
+				Event management is the process of organizing a professional and focused event. for a particular target audience. 
+				IT involves visualizing concepts, planing, budgeting , organizing and executing events, seminars, exhibitions, 
+				theme parties etc.</h4>
+			<h4>On the whole, event management is elegant and requires lot of hard work and dynamism</h4>
+			<br>
+	
+		</div>
+		<div class="div-1">
+			<h1>Developed By:</h1>
+				<h4><mark class="id">Project Guide: Smt Pooja-Assitant Professor,	
+				CSE department,SITS</mark></h4>
+				<h4><mark class="id">Team Lead: P Divya Sri,4th year	
+				CSE department,SITS</mark></h4>
+				<h4><mark class="id">Member   : Peshimam Amaan,4th year,	
+				CSE department,SITS</mark></h4>
+				<h4><mark class="id">Member: Nerella Rohith,4th year,	
+				CSE department,SITS</mark></h4>
+				<h4><mark class="id">Member: P Keerthi Priya,4th year,	
+				CSE department,SITS</mark></h4>
+				<h4><mark class="id">Member: Uday Kiran,4th year,	
+				CSE department,SITS</mark></h4>
+			
+			
+		</div>	
+	
+</div>
+<hr style="border: 10px solid black; border-radius: 5px;">
+<br><br>
+  <!-- Footer -->
+<footer class="page-footer font-small teal pt-4" style="background-color: grey;" id="sec3">
+
+	<!-- Footer Text -->
+	<div class="container-fluid text-center text-md-left">
+  
+	  <!-- Grid row -->
+	  <div class="row">
+  
+		<!-- Grid column -->
+		<div class="col-md-6 mt-md-0 mt-3">
+  
+		  <!-- Content -->
+		  <h5 class="text-uppercase font-weight-bold">Connect</h5>
+		  <p>P Divya Sri    : 8179853916<br>
+			  Peshimam Amaan: 9985574844<br>
+			  Narella Rohith: 9849284038<br>
+			  Preethi		: 7997041288<br>
+			  Uday 			: 9701189473<br>
+		  </p>
+  
+		</div>
+		<!-- Grid column -->
+  
+		<hr class="clearfix w-100 d-md-none pb-3">
+  
+		<!-- Grid column -->
+		<div class="col-md-6 mb-md-0 mb-3">
+  
+		  <!-- Content -->
+		  <h5 class="text-uppercase font-weight-bold">Social</h5>
+		  <p>P Divya Sri    : 8179853916<br>
+			Peshimam Amaan	: amaanamn585@gmail.com<br>
+			Narella Rohith	: 9849284038<br>
+			Preethi			: 7997041288<br>
+			Uday 			: 9701189473<br></p>
+  
+		</div>
+		<!-- Grid column -->
+  
+	  </div>
+	  <!-- Grid row -->
+  
+	</div>
+	<!-- Footer Text -->
+  
+	<!-- Copyright -->
+	<div class="footer-copyright text-center py-3" style="background-color: white;">© 2021:
+	  <a href="index.html"> EventBuffer</a>
+	</div>
+	<!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+</body>
+</html>
